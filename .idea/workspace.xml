@@ -2,38 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2719402f-bb5d-4282-aaab-6baf924bafc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DyanmicProgramming/CombinationSum.class" afterPath="$PROJECT_DIR$/out/production/DyanmicProgramming/CombinationSum.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DyanmicProgramming/CombinationSum2.class" afterPath="$PROJECT_DIR$/out/production/DyanmicProgramming/CombinationSum2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DyanmicProgramming/MSS.class" afterPath="$PROJECT_DIR$/out/production/DyanmicProgramming/MSS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DyanmicProgramming/MagicIndex.class" afterPath="$PROJECT_DIR$/out/production/DyanmicProgramming/MagicIndex.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DyanmicProgramming/MaxSumRectangularSubMatrix.class" afterPath="$PROJECT_DIR$/out/production/DyanmicProgramming/MaxSumRectangularSubMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DyanmicProgramming/StringPermutation.class" afterPath="$PROJECT_DIR$/out/production/DyanmicProgramming/StringPermutation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DyanmicProgramming/StringPermutationsDistinct.class" afterPath="$PROJECT_DIR$/out/production/DyanmicProgramming/StringPermutationsDistinct.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/InsertionSort.java" afterPath="$PROJECT_DIR$/Arrays/src/InsertionSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/MergeSort.java" afterPath="$PROJECT_DIR$/Arrays/src/MergeSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/PairWithSumX.java" afterPath="$PROJECT_DIR$/Arrays/src/PairWithSumX.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BitManipulation/src/NearestPowerOf2.java" afterPath="$PROJECT_DIR$/BitManipulation/src/NearestPowerOf2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DyanmicProgramming/src/CoinChange.java" afterPath="$PROJECT_DIR$/DyanmicProgramming/src/CoinChange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DyanmicProgramming/src/CombinationSum.java" afterPath="$PROJECT_DIR$/DyanmicProgramming/src/CombinationSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DyanmicProgramming/src/CombinationSum2.java" afterPath="$PROJECT_DIR$/DyanmicProgramming/src/CombinationSum2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DyanmicProgramming/src/MSS.java" afterPath="$PROJECT_DIR$/DyanmicProgramming/src/MSS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DyanmicProgramming/src/MagicIndex.java" afterPath="$PROJECT_DIR$/DyanmicProgramming/src/MagicIndex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DyanmicProgramming/src/MaxSumRectangularSubMatrix.java" afterPath="$PROJECT_DIR$/DyanmicProgramming/src/MaxSumRectangularSubMatrix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DyanmicProgramming/src/StringPermutation.java" afterPath="$PROJECT_DIR$/DyanmicProgramming/src/StringPermutation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DyanmicProgramming/src/StringPermutationsDistinct.java" afterPath="$PROJECT_DIR$/DyanmicProgramming/src/StringPermutationsDistinct.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedList/src/BuildLinkedList.java" afterPath="$PROJECT_DIR$/LinkedList/src/BuildLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedList/src/KthToLast.java" afterPath="$PROJECT_DIR$/LinkedList/src/KthToLast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedList/src/LinkedListMainClass.java" afterPath="$PROJECT_DIR$/LinkedList/src/LinkedListMainClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedList/src/LinkedListNode.java" afterPath="$PROJECT_DIR$/LinkedList/src/LinkedListNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedList/src/MoveLastElementToBeginning.java" afterPath="$PROJECT_DIR$/LinkedList/src/MoveLastElementToBeginning.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedList/src/PrintElements.java" afterPath="$PROJECT_DIR$/LinkedList/src/PrintElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matrix/src/Rotation90.java" afterPath="$PROJECT_DIR$/Matrix/src/Rotation90.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/String/src/AddTwoBinaryString.java" afterPath="$PROJECT_DIR$/String/src/AddTwoBinaryString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/String/src/MaxOccurenceOfCharacter.java" afterPath="$PROJECT_DIR$/String/src/MaxOccurenceOfCharacter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/String/src/MultiplyIntegerStrings.java" afterPath="$PROJECT_DIR$/String/src/MultiplyIntegerStrings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/String/src/RemoveDuplicateCharacters.java" afterPath="$PROJECT_DIR$/String/src/RemoveDuplicateCharacters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/String/src/StringMainClass.java" afterPath="$PROJECT_DIR$/String/src/StringMainClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree/src/CreateTree.java" afterPath="$PROJECT_DIR$/Tree/src/CreateTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree/src/Traversal.java" afterPath="$PROJECT_DIR$/Tree/src/Traversal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree/src/TreeMainClass.java" afterPath="$PROJECT_DIR$/Tree/src/TreeMainClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree/src/TreeNode.java" afterPath="$PROJECT_DIR$/Tree/src/TreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree/src/VerticalSum.java" afterPath="$PROJECT_DIR$/Tree/src/VerticalSum.java" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +32,38 @@
     <favorites_list name="Java" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CoinChange.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DyanmicProgramming/src/CoinChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CombinationSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DyanmicProgramming/src/CombinationSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Knapsack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DyanmicProgramming/src/Knapsack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,8 +90,6 @@
         <option value="$PROJECT_DIR$/Tree/src/AddNodeToTree.java" />
         <option value="$PROJECT_DIR$/Heap/src/Main.java" />
         <option value="$PROJECT_DIR$/Heap/src/Heap.java" />
-        <option value="$PROJECT_DIR$/DyanmicProgramming/src/CombinationSum.java" />
-        <option value="$PROJECT_DIR$/DyanmicProgramming/src/CoinChange.java" />
         <option value="$PROJECT_DIR$/Arrays/src/InsertionSort.java" />
         <option value="$PROJECT_DIR$/Arrays/src/MergeSort.java" />
         <option value="$PROJECT_DIR$/Arrays/src/PairWithSumX.java" />
@@ -110,6 +117,9 @@
         <option value="$PROJECT_DIR$/Tree/src/TreeMainClass.java" />
         <option value="$PROJECT_DIR$/Tree/src/TreeNode.java" />
         <option value="$PROJECT_DIR$/Tree/src/VerticalSum.java" />
+        <option value="$PROJECT_DIR$/DyanmicProgramming/src/CoinChange.java" />
+        <option value="$PROJECT_DIR$/DyanmicProgramming/src/CombinationSum.java" />
+        <option value="$PROJECT_DIR$/DyanmicProgramming/src/Knapsack.java" />
       </list>
     </option>
   </component>
@@ -177,6 +187,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DyanmicProgramming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DyanmicProgramming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -191,22 +233,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="set background ima&#9;PSI&#9;JAVA://com.sun.deploy.ui.UITextArea#setBackgroundImage&#10;set background image&#9;PSI&#9;JAVA://org.w3c.dom.css.CSS2Properties#setBackgroundImage" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="MergeSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Arrays" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CombinationSum">
     <configuration default="false" name="MultiplyIntegerStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MultiplyIntegerStrings" />
@@ -255,6 +282,21 @@
     <configuration default="false" name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CombinationSum2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DyanmicProgramming" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CoinChange" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -666,19 +708,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MergeSort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MultiplyIntegerStrings" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CombinationSum" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CombinationSum2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MultiplyIntegerStrings" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CombinationSum" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CombinationSum2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CoinChange" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CombinationSum2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CombinationSum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MultiplyIntegerStrings" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MergeSort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CombinationSum" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CoinChange" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CombinationSum2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MultiplyIntegerStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -717,16 +759,16 @@
       <workItem from="1474859718975" duration="178000" />
       <workItem from="1474860003160" duration="266000" />
       <workItem from="1474860288530" duration="20000" />
-      <workItem from="1474860369906" duration="3022000" />
+      <workItem from="1474860369906" duration="6546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92416000" />
+    <option name="totallyTimeSpent" value="95940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1232" height="777" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -740,7 +782,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19159664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19159664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -851,7 +893,7 @@
           <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="109" />
+      <option name="time" value="110" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -860,13 +902,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Arrays/src/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DyanmicProgramming/src/MaxSumRectangularSubMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -985,14 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DyanmicProgramming/src/CoinChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Arrays/src/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1040,14 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DyanmicProgramming/src/CombinationSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1248,6 +1267,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DyanmicProgramming/src/CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DyanmicProgramming/src/CombinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DyanmicProgramming/src/Knapsack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding />
         </state>
       </provider>

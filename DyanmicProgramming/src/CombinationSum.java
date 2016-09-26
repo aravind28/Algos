@@ -4,7 +4,7 @@ public class CombinationSum {
 
     public static int combinationSum4(int[] nums, int target){
         int[] result = new int[target + 1];
-        Arrays.sort(nums);
+
         result[0] = 1;
         for(int i = 0; i <= target; i++){
             for(int n : nums){
