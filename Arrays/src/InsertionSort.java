@@ -7,14 +7,14 @@ public class InsertionSort {
         if (n > 1) {
             recursiveInsertionSort(array, n - 1);
         }
-            int key = array[n];
-            int i = n - 1;
-            while ((i >= 0) && (array[i] > key)){
-                array[i + 1] = array[i];
-                i = i - 1;
-            }
-            array[i + 1] = key;
-            return array;
+        int key = array[n];
+        int i = n - 1;
+        while ((i >= 0) && (array[i] > key)){
+            array[i + 1] = array[i];
+            i = i - 1;
+        }
+        array[i + 1] = key;
+        return array;
     }
 
     /*
@@ -53,12 +53,13 @@ public class InsertionSort {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 41, 52, 26, 38, 57, 9, 49};
         int[] recursionResult = recursiveInsertionSort(arr, arr.length - 1);
-        System.out.println("Sorted Array (recursive method): ");
+        System.out.println();
+        System.out.print("Sorted Array (recursive method): ");
         for(int num : recursionResult){
             System.out.print(" " + num);
         }
         System.out.println();
-        System.out.println("Sorted Array (binary search method): ");
+        System.out.print("Sorted Array (binary search method): ");
         int[] binarySearchResult = binarySearchInsertionSort(arr);
         for(int num : binarySearchResult){
             System.out.print(" " + num);
