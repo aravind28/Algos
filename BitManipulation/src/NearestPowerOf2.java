@@ -13,7 +13,7 @@ public class NearestPowerOf2 {
             n >>= 1;
         }
         int output = 1 << (positionOfFirstOne + 1);
-        System.out.println("The next nearest power is:" + output);
+        System.out.println("The next nearest power is: " + output);
     }
 
     public static void main(String[] args){

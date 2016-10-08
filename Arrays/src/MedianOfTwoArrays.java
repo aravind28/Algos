@@ -1,35 +1,62 @@
-class MedianOfTwoArrays{
-    public static float findMedian(int[] arr1, int arr1Start, int arr1End,
-                                   int[] arr2, int arr2Start, int arr2End){
+class MedianOfTwoArrays {
+    public static float findMedian(int[] x, int startIndexOfX, int endIndexOfX,
+                                   int[] y, int startIndexOfY, int endIndexOfY){
         float result;
-        if(arr1Start == arr1End){
-            result = (arr1[arr1Start] + arr2[arr2Start]) / 2;
+
+        if(startIndexOfX == endIndexOfX){
+            result = (x[startIndexOfX] + y[startIndexOfY]) / 2.0f;
             return result;
         }
-
-        else if(((arr1End - arr1Start) == 1)){
-            float m1 = Math.max(arr1[arr1Start], arr2[arr2Start]);
-            float m2 = Math.min(arr1[arr1End], arr2[arr2End]);
-            result = (m1 + m2) / 2;
-            return result;
+        if (endIndexOfX - startIndexOfX == 1){
+            int middleElementOne = Math.max(x[startIndexOfX], y[startIndexOfY]);
+            int middleElementTwo = Math.min(x[endIndexOfX], y[endIndexOfY]);
+            return (middleElementOne + middleElementTwo) / 2.0f;
         }
-        int medianIndexArr1 = arr1Start + ((arr1End - arr1Start) / 2);
-        int medianIndexArr2 = arr2Start + ((arr2End - arr2Start) / 2);
+        int medianOfX = getMedianValue(x, startIndexOfX, endIndexOfX);
+        int medianOfY = getMedianValue(y, startIndexOfY, endIndexOfY);
 
-        if(arr1[medianIndexArr1] < arr2[medianIndexArr2]){
-            arr1Start = medianIndexArr1;
-            arr2End = medianIndexArr2;
+        if (medianOfX == medianOfY){
+            return medianOfX;
+        }
+
+        int midIndexOfX = startIndexOfX + (endIndexOfX - startIndexOfX) / 2;
+        int midIndexOfY = startIndexOfY + (endIndexOfY - startIndexOfY) / 2;
+
+        if(medianOfX < medianOfY){
+            if((endIndexOfY - startIndexOfY) % 2 == 1){
+                midIndexOfY = midIndexOfY + 1;
+            }
+            return findMedian(x,  midIndexOfX, endIndexOfX, y, startIndexOfY, midIndexOfY);
         }
         else{
-            arr1End = medianIndexArr1;
-            arr2Start = medianIndexArr2;
+            if((endIndexOfX - startIndexOfX) % 2 == 1){
+                midIndexOfX = midIndexOfX + 1;
+            }
+
+            return findMedian(x, startIndexOfX, midIndexOfX, y, midIndexOfY, endIndexOfY);
         }
-        return findMedian(arr1, arr1Start, arr1End, arr2, arr2Start, arr2End);
+    }
+
+    private static int getMedianValue(int[] arr, int startIndex, int endIndex){
+        int medianIndex = (startIndex) + (endIndex - startIndex) / 2;
+        int median = arr[medianIndex];
+        if((endIndex - startIndex) % 2 == 1 ){            // if even number of elements are present median
+            median = (median + arr[medianIndex + 1]) / 2; // is the average of two middle elements
+        }
+        return median;
     }
 
     public static void main(String[] args) {
-        int[] arr1 = new int[]{1, 12, 15, 26, 38};
-        int[] arr2 = new int[]{2, 13, 17, 30, 45};
+//        int[] arr1 = {1, 12, 15, 26, 38};
+//        int[] arr2 = {2, 13, 17, 30, 45};
+        int[] arr1 = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+        int[] arr2 = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
+//        int[] arr1 = {4};
+//        int[] arr2 = {2};
+//        int[] arr1 = {1, 22, 25};
+//        int[] arr2 = {4, 22, 33};
+//        int[] arr1 = {1, 14, 22, 25, 27, 47, 75, 88};
+//        int[] arr2 = {1, 4, 7, 18, 34, 68, 77, 78};
         float median = findMedian(arr1, 0, arr1.length - 1, arr2, 0, arr2.length - 1);
         System.out.println("Median: " + median);
     }
