@@ -8,7 +8,7 @@ public class BuildLinkedList {
         currentNode = null;
     }
 
-    public void addElementsToLinedList(int[] elements){
+    public void addElementsToLinkedList(int[] elements){
         for (int i = 0; i <= elements.length - 1; i++){
             addElementInLinkedList(elements[i]);
         }

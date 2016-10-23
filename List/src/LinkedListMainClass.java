@@ -4,7 +4,7 @@ public class LinkedListMainClass {
     public static void main(String[] args){
         int[] inputElementsOfLinkedList = new int[]{3, 6, 24, 25, 67, 202, 404, 231};
         BuildLinkedList BL = new BuildLinkedList();
-        BL.addElementsToLinedList(inputElementsOfLinkedList);
+        BL.addElementsToLinkedList(inputElementsOfLinkedList);
 
         // Print all elements of Linked List
         PrintElements.printElements(BL.head);
