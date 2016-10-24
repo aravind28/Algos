@@ -142,8 +142,9 @@ public class AVLTree {
     public static void main(String[] args) {
         AVLTree avlTree = new AVLTree();
         AVLTreeNode root = new AVLTreeNode();
-        String ip = "abcdefghijklmnopqrstuvwxyz";
+        String ip = "cdezfy";
 //        String ip = "Algorithms";
+//        String ip = "SeattleWA";
         for (int i = 0; i <= ip.length()- 1; i++) {
             root = avlTree.insert(root, ip.charAt(i));
             PrintNode.printEveryIteration(root);

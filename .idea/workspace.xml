@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2719402f-bb5d-4282-aaab-6baf924bafc4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Tree/AVLTree.class" afterPath="$PROJECT_DIR$/out/production/Tree/AVLTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Tree/AVLTreeNode.class" afterPath="$PROJECT_DIR$/out/production/Tree/AVLTreeNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Tree/PrintNode.class" afterPath="$PROJECT_DIR$/out/production/Tree/PrintNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree/src/AVLTree.java" afterPath="$PROJECT_DIR$/Tree/src/AVLTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree/src/AVLTreeNode.java" afterPath="$PROJECT_DIR$/Tree/src/AVLTreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree/src/PrintNode.java" afterPath="$PROJECT_DIR$/Tree/src/PrintNode.java" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrintNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree/src/PrintNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
+            <state relative-caret-position="401">
               <caret line="53" column="98" selection-start-line="53" selection-start-column="98" selection-end-line="53" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tree/src/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1701">
-              <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
+            <state relative-caret-position="281">
+              <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -790,7 +784,7 @@
       <workItem from="1476834367317" duration="20292000" />
       <workItem from="1477012894169" duration="8141000" />
       <workItem from="1477040463203" duration="30138000" />
-      <workItem from="1477214253499" duration="10520000" />
+      <workItem from="1477214253499" duration="11482000" />
     </task>
     <servers />
   </component>
@@ -800,7 +794,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250135000" />
+    <option name="totallyTimeSpent" value="251097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1029,18 +1023,6 @@
           <line>6</line>
           <properties />
           <option name="timeStamp" value="202" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Tree/src/AVLTree.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="257" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Tree/src/AVLTree.java</url>
-          <line>111</line>
-          <properties />
-          <option name="timeStamp" value="258" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1414,22 +1396,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tree/src/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tree/src/PrintNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
+        <state relative-caret-position="401">
           <caret line="53" column="98" selection-start-line="53" selection-start-column="98" selection-end-line="53" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#936#947#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/src/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
