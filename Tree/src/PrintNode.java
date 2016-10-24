@@ -12,6 +12,23 @@ public class PrintNode {
         this.level = level;
     }
 
+    public static void printRowDelimiters(int noOfSpaces){
+        for (int i = 1; i < noOfSpaces; i++) {
+            System.out.print("-");
+        }
+        System.out.println();
+    }
+
+    public static void printEveryIteration(AVLTreeNode root){
+        int noOfSpaces = (int) Math.pow(2, root.heightOfNode + 1);
+        printRowDelimiters(noOfSpaces);
+        printAVLTree(root);
+        printRowDelimiters(noOfSpaces);
+        System.out.println("Root node is: " + root.val);
+        System.out.println();
+        System.out.println();
+    }
+
     public static void printAVLTree(AVLTreeNode node) {
         Queue<PrintNode> q = new LinkedList<PrintNode>();
         int rootPosition = (int) Math.pow(2, node.heightOfNode);
@@ -19,6 +36,7 @@ public class PrintNode {
         int levelOfChildren = node.heightOfNode - 1;
         q.add(new PrintNode(node, rootPosition, levelOfChildren));
         int noOfElementsInLevel;
+
         while (q.size() > 0) {
             noOfElementsInLevel = q.size();
             for (int j = 1; j <= totalSpaces; j++) {
@@ -33,16 +51,17 @@ public class PrintNode {
                     // If the node has children, append them into the queue along with the position at which,
                     // they should be inserted
                     // The children should be present at a distance equidistant from the parent node so,
-                    // keeping the position of node as the reference, the position of its children position are computed
+                    // keeping the position of node as the reference, the position of its children are computed
                     if (nodeToPrint.node.leftChild != null) {
                         AVLTreeNode leftChild = nodeToPrint.node.leftChild;
-                        int positionOfLeftChild = pos - (int)Math.pow(2, nodeToPrint.level);
+                        int positionOfLeftChild = (pos - (int)Math.pow(2, nodeToPrint.level));
                         int heightLevelOfChildren = nodeToPrint.level - 1;
                         q.add(new PrintNode(leftChild, positionOfLeftChild, heightLevelOfChildren));
                     }
+
                     if (nodeToPrint.node.rightChild != null) {
                         AVLTreeNode rightChild = nodeToPrint.node.rightChild;
-                        int positionOfRightChild = pos + (int) Math.pow(2, nodeToPrint.level);
+                        int positionOfRightChild = (pos + (int) Math.pow(2, nodeToPrint.level));
                         int heightLevelOfChildren = nodeToPrint.level - 1;
                         q.add(new PrintNode(rightChild, positionOfRightChild, heightLevelOfChildren));
                     }
@@ -50,7 +69,6 @@ public class PrintNode {
                     System.out.print(" ");
                 }
             }
-            System.out.println();
             System.out.println();
         }
     }
