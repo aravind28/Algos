@@ -1,6 +1,6 @@
 
 public class Traversal {
-    public void inOrderTraversal(TreeNode root){
+    public static void inOrderTraversal(TreeNode root){
         if(root == null){
             return;
         }
@@ -9,7 +9,7 @@ public class Traversal {
         inOrderTraversal(root.right);
     }
 
-    public void preOrderTraversal(TreeNode root){
+    public static void preOrderTraversal(TreeNode root){
         if(root == null){
             return;
         }
@@ -18,7 +18,7 @@ public class Traversal {
         preOrderTraversal(root.right);
     }
 
-    public void postOrderTraversal(TreeNode root){
+    public static void postOrderTraversal(TreeNode root){
         if(root == null){
             return;
         }
