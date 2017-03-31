@@ -1,35 +1,34 @@
-import java.util.HashSet;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class TwoSum {
 
-    public static int[] twoSum(int[] nums, int target) {
-        HashSet<Integer> hs = new HashSet<Integer>();
-        int[] res = new int[2];
-        for(int i = 0; i < nums.length; i++){
-            if(hs.contains(Math.abs(target-nums[i]))){
-                int j = 0;
-                while (j < i) {
-                    if (nums[j] == (target - nums[i])) {
-                        res[0] = j;
-                        res[1] = i;
-                    }
-                    j++;
-                }
+    public static ArrayList<ArrayList<Integer>> findTwoSum(int[] nums, int target) {
+        // result stores the combination of all lists totalling to a particular sum
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        Arrays.sort(nums);
+        int i = 0;
+        int j = nums.length - 1;
+        while(i < j){
+            int sum = nums[i] + nums[j];
+            if(sum == target) {
+                result.add(new ArrayList<Integer>(Arrays.asList(nums[i], nums[j])));
+                i ++;
+                j --;
             }
-            else if(!hs.contains(nums[i])){
-                hs.add(nums[i]);
-            }
+            else if(sum > target) i ++;
+            else j --;
         }
-        return res;
+        return result;
     }
 
     public static void main(String[] args) {
-        int[] arr = {3, 2, 4};
+        int[] arr = {3, 2, 4, 1, 5, 0, 6};
         int target = 6;
-        int[] result = twoSum(arr, target);
-        System.out.print("Array Index are:");
-        for (int num : result){
-            System.out.print(" " + num);
+        ArrayList<ArrayList<Integer>> result = findTwoSum(arr, target);
+        System.out.println("All the 2 sums in the array that sum up to" + " " + target + " are:");
+        for (ArrayList num : result){
+            System.out.println(" " + num.get(0) + " " + num.get(1));
         }
     }
 }
