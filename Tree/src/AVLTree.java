@@ -142,7 +142,7 @@ public class AVLTree {
     public static void main(String[] args) {
         AVLTree avlTree = new AVLTree();
         AVLTreeNode root = new AVLTreeNode();
-        String ip = "cdezfy";
+        String ip = "cdezfyabcdefg";
 //        String ip = "Algorithms";
 //        String ip = "SeattleWA";
         for (int i = 0; i <= ip.length()- 1; i++) {
